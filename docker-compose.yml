@@ -84,7 +84,7 @@ services:
       PORT: 80
       EXPOSED_PORT: 9701
       LIVERELOAD_PORT: 19701
-      TENANT_KEY: ai_all
+      TENANT_KEY: accessintel_all
       SITE_ID: 62437599d28860bc3391e078
     hostname: www-ai-power.dev.parameter1.com
     ports:

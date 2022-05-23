@@ -1,0 +1,10 @@
+{
+  "version": "1.34.1",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "allowBranch": "master"
+    }
+  }
+}

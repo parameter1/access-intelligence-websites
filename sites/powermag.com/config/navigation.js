@@ -1,7 +1,15 @@
 const privacyPolicy = require('./privacy-policy');
 const subscribe = require('./subscribe');
 
-const topics = [];
+const topics = [
+  { href: '/business', label: 'Business' },
+  { href: '/coal', label: 'Coal' },
+  { href: '/connected-plant', label: 'Connected Plant' },
+  { href: '/distributed-energy', label: 'Distributed Energy' },
+  { href: '/gas', label: 'Gas' },
+  { href: '/international', label: 'International' },
+  { href: '/nuclear', label: 'Nuclear' },
+];
 
 const resources = [];
 

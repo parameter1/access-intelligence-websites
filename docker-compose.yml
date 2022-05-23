@@ -73,20 +73,20 @@ services:
     environment:
       <<: *env
 
-  pm:
+  power:
     <<: *node
     <<: *site-cmd
     working_dir: /root/sites/powermag.com
     environment:
       <<: *env
       <<: *env-leonis
-      HOST: www-ai-pm.dev.parameter1.com
+      HOST: www-ai-power.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9701
       LIVERELOAD_PORT: 19701
       TENANT_KEY: ai_all
-      SITE_ID: 627944bfd28860bc33ca074a
-    hostname: www-ai-pm.dev.parameter1.com
+      SITE_ID: 62437599d28860bc3391e078
+    hostname: www-ai-power.dev.parameter1.com
     ports:
       - "9701:80"
       - "19701:19701"

@@ -3,13 +3,21 @@
 $skin-font-family-primary: "Fira Sans", sans-serif !default;
 $skin-font-family-secondary: "Fira Sans", sans-serif !default;
 
+// Colors
+$white: #fff !default;
+
 // Navbar
 $navbarStyle: "navbar-b" !default;
-$theme-site-navbar-primary-type: light;
-$theme-site-navbar-logo-height: 60px !default;
+$theme-site-navbar-primary-type: dark !default;
+$theme-site-navbar-logo-height: 45px !default;
 $theme-site-navbar-secondary-font-size: 16px !default;
+
+$theme-site-navbar-primary-link-color: $white !default;
+$theme-site-navbar-primary-link-active-color: $white !default;
+$theme-site-navbar-primary-link-hover-color: $white !default;
+$theme-site-navbar-primary-bg-color: $primary !default;
 
 // Ads
 $leaderboard-min-height-mobile: 100px !default;
 $leaderboard-min-height-desktop: 90px !default;
-$skin-ad-bg-color: white !default;
+$skin-ad-bg-color: $white !default;

@@ -25,15 +25,15 @@ module.exports = {
   },
   logos: {
     navbar: {
-      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=45&auto=format,compress',
+      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=50&auto=format,compress',
       srcset: [
-        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=90&auto=format,compress 2x',
+        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=50&auto=format,compress&dpr=2 2x',
       ],
     },
     footer: {
-      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=60&auto=format,compress',
+      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=50&auto=format,compress',
       srcset: [
-        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=120&auto=format,compress 2x',
+        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/power/power-logo.jpeg?h=50&auto=format,compress&dpr=2 2x',
       ],
     },
     corporate: {

@@ -90,3 +90,21 @@ services:
     ports:
       - "9701:80"
       - "19701:19701"
+
+  dd:
+    <<: *node
+    <<: *site-cmd
+    working_dir: /root/sites/defensedaily.com
+    environment:
+      <<: *env
+      <<: *env-leonis
+      HOST: www-ai-dd.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9702
+      LIVERELOAD_PORT: 19702
+      TENANT_KEY: accessintel_all
+      SITE_ID: 62437500d28860bc3391ba46
+    hostname: www-ai-dd.dev.parameter1.com
+    ports:
+      - "9702:80"
+      - "19702:19702"

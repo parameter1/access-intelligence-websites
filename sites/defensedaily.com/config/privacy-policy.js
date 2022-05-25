@@ -1,4 +1,5 @@
 module.exports = {
-  href: '/page/terms-of-service',
-  label: 'Terms of Service',
+  href: 'https://www.accessintel.com/ai-privacy-policy/',
+  label: 'Privacy Policy',
+  target: '_blank',
 };

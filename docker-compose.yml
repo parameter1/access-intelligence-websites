@@ -108,3 +108,21 @@ services:
     ports:
       - "9702:80"
       - "19702:19702"
+
+  cf:
+    <<: *node
+    <<: *site-cmd
+    working_dir: /root/sites/cablefax.com
+    environment:
+      <<: *env
+      <<: *env-leonis
+      HOST: www-ai-cf.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9703
+      LIVERELOAD_PORT: 19703
+      TENANT_KEY: accessintel_all
+      SITE_ID: 624375efd28860bc3391f647
+    hostname: www-ai-cf.dev.parameter1.com
+    ports:
+      - "9703:80"
+      - "19703:19703"

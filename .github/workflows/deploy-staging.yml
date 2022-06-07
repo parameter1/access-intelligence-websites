@@ -34,8 +34,10 @@ jobs:
     strategy:
       matrix:
         namespace:
-          - staging-websites-virgon
+          - staging-websites-leonis
         site:
+          - cablefax.com
+          - defensedaily.com
           - powermag.com
     steps:
       - uses: actions/checkout@v2

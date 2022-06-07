@@ -36,6 +36,8 @@ jobs:
         namespace:
           - virgon-websites
         site:
+          - cablefax.com
+          - defensedaily.com
           - powermag.com
     steps:
       - uses: actions/checkout@v2

@@ -133,3 +133,18 @@ services:
     ports:
       - "9704:80"
       - "19704:19704"
+
+  avn:
+    <<: *site-cmd
+    working_dir: /root/sites/aircraftvaluenews.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-avn.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9706
+      LIVERELOAD_PORT: 19706
+      SITE_ID: 624374cfd28860bc3391adce
+    hostname: www-ai-avn.dev.parameter1.com
+    ports:
+      - "9706:80"
+      - "19706:19706"

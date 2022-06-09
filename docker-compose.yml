@@ -283,3 +283,18 @@ services:
     ports:
       - "9714:80"
       - "19714:19714"
+
+  prn:
+    <<: *site-cmd
+    working_dir: /root/sites/prnewsonline.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-prn.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9715
+      LIVERELOAD_PORT: 19715
+      SITE_ID: 6243768fd28860bc33921e8d
+    hostname: www-ai-prn.dev.parameter1.com
+    ports:
+      - "9715:80"
+      - "19715:19715"

@@ -29,7 +29,7 @@ x-env-defaults: &env
   EQUIPMENT_EXPERTS_GRAPHQL_URI: ${EQUIPMENT_EXPERTS_GRAPHQL_URI-https://equipment-experts.virgon.base.parameter1.com/graphql}
   ENABLE_CONTENT_METER: ${ENABLE_CONTENT_METER-false}
   IDX_NAV_ENABLE: ${IDX_NAV_ENABLE-false}
-
+  TENANT_KEY: accessintel_all
   RECAPTCHA_V3_SITE_KEY: ${RECAPTCHA_V3_SITE_KEY-(unset)}
   RECAPTCHA_V3_SECRET_KEY: ${RECAPTCHA_V3_SECRET_KEY-(unset)}
 
@@ -75,17 +75,14 @@ services:
       <<: *env
 
   power:
-    <<: *node
     <<: *site-cmd
     working_dir: /root/sites/powermag.com
     environment:
-      <<: *env
-      <<: *env-leonis
+      <<: [*env, *env-leonis]
       HOST: www-ai-power.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9701
       LIVERELOAD_PORT: 19701
-      TENANT_KEY: accessintel_all
       SITE_ID: 62437599d28860bc3391e078
     hostname: www-ai-power.dev.parameter1.com
     ports:
@@ -93,17 +90,14 @@ services:
       - "19701:19701"
 
   dd:
-    <<: *node
     <<: *site-cmd
     working_dir: /root/sites/defensedaily.com
     environment:
-      <<: *env
-      <<: *env-leonis
+      <<: [*env, *env-leonis]
       HOST: www-ai-dd.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9702
       LIVERELOAD_PORT: 19702
-      TENANT_KEY: accessintel_all
       SITE_ID: 62437500d28860bc3391ba46
     hostname: www-ai-dd.dev.parameter1.com
     ports:
@@ -111,17 +105,14 @@ services:
       - "19702:19702"
 
   cf:
-    <<: *node
     <<: *site-cmd
     working_dir: /root/sites/cablefax.com
     environment:
-      <<: *env
-      <<: *env-leonis
+      <<: [*env, *env-leonis]
       HOST: www-ai-cf.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9703
       LIVERELOAD_PORT: 19703
-      TENANT_KEY: accessintel_all
       SITE_ID: 624375efd28860bc3391f647
     hostname: www-ai-cf.dev.parameter1.com
     ports:

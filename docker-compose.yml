@@ -208,3 +208,18 @@ services:
     ports:
       - "9709:80"
       - "19709:19709"
+
+  cynopsis:
+    <<: *site-cmd
+    working_dir: /root/sites/cynopsis.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-cynopsis.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9710
+      LIVERELOAD_PORT: 19710
+      SITE_ID: 62437633d28860bc33920741
+    hostname: www-ai-cynopsis.dev.parameter1.com
+    ports:
+      - "9710:80"
+      - "19710:19710"

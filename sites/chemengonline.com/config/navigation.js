@@ -2,12 +2,11 @@ const privacyPolicy = require('./privacy-policy');
 const subscribe = require('./subscribe');
 
 const topics = [
-  { href: '/publishers', label: 'Publishers' },
-  // { href: '/regulation', label: 'Regulation' },
-  // { href: '/distribution', label: 'Distribution' },
-  // { href: '/technology', label: 'Technology' },
-  // { href: '/people', label: 'People' },
-  // { href: '/associations', label: 'Associations' },
+  { href: '/processing-and-handling', label: 'Processing & Handling' },
+  { href: '/separation-processes', label: 'Separation Processes' },
+  { href: '/water-treatment', label: 'Water Treatment' },
+  { href: '/heat-transfer', label: 'Heat Transfer' },
+  { href: '/solids-handling', label: 'Solids Handling' },
 ];
 
 const resources = [];

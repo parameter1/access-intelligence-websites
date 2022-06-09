@@ -163,3 +163,18 @@ services:
     ports:
       - "9706:80"
       - "19706:19706"
+
+  at:
+    <<: *site-cmd
+    working_dir: /root/sites/aviationtoday.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-at.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9707
+      LIVERELOAD_PORT: 19707
+      SITE_ID: 624374e6d28860bc3391b3c5
+    hostname: www-ai-at.dev.parameter1.com
+    ports:
+      - "9707:80"
+      - "19707:19707"

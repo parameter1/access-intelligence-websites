@@ -298,3 +298,18 @@ services:
     ports:
       - "9715:80"
       - "19715:19715"
+
+  vs:
+    <<: *site-cmd
+    working_dir: /root/sites/satellitetoday.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-vs.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9716
+      LIVERELOAD_PORT: 19716
+      SITE_ID: 62437556d28860bc3391cfcb
+    hostname: www-ai-vs.dev.parameter1.com
+    ports:
+      - "9716:80"
+      - "19716:19716"

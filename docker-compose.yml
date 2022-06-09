@@ -128,7 +128,7 @@ services:
       PORT: 80
       EXPOSED_PORT: 9704
       LIVERELOAD_PORT: 19704
-      SITE_ID: 624375efd28860bc3391f647
+      SITE_ID: 624375b6d28860bc3391e7d8
     hostname: www-ai-adex.dev.parameter1.com
     ports:
       - "9704:80"

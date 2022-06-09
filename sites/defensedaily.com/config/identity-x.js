@@ -1,7 +1,7 @@
 const configureIdentityX = require('@access-intelligence/package-global/config/identity-x');
 
 module.exports = configureIdentityX({
-  appId: '627aa48d6f730119a9a152a5',
+  appId: '62a2081139347cc20386297a',
   requiredServerFields: [
     'givenName',
     'familyName',

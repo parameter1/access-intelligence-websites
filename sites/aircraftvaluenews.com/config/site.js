@@ -46,9 +46,9 @@ module.exports = {
     },
   },
   socialMediaLinks: [
-    { provider: 'facebook', href: 'https://www.facebook.com/AdExchanger/', target: '_blank' },
-    { provider: 'twitter', href: 'https://twitter.com/adexchanger', target: '_blank' },
-    { provider: 'linkedin', href: 'https://www.linkedin.com/company/adexchanger-com/', target: '_blank' },
+    // { provider: 'facebook', href: 'https://www.facebook.com/AdExchanger/', target: '_blank' },
+    // { provider: 'twitter', href: 'https://twitter.com/adexchanger', target: '_blank' },
+    // { provider: 'linkedin', href: 'https://www.linkedin.com/company/adexchanger-com/', target: '_blank' },
   ],
   podcastLinks: [],
   gcse: {

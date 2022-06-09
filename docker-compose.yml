@@ -238,3 +238,18 @@ services:
     ports:
       - "9711:80"
       - "19711:19711"
+
+  exm:
+    <<: *site-cmd
+    working_dir: /root/sites/exchangemarketer.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-exm.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9712
+      LIVERELOAD_PORT: 19712
+      SITE_ID: 6243751fd28860bc3391c20e
+    hostname: www-ai-exm.dev.parameter1.com
+    ports:
+      - "9712:80"
+      - "19712:19712"

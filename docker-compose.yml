@@ -118,3 +118,18 @@ services:
     ports:
       - "9703:80"
       - "19703:19703"
+
+  adex:
+    <<: *site-cmd
+    working_dir: /root/sites/adexchanger.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-adex.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9704
+      LIVERELOAD_PORT: 19704
+      SITE_ID: 624375efd28860bc3391f647
+    hostname: www-ai-adex.dev.parameter1.com
+    ports:
+      - "9704:80"
+      - "19704:19704"

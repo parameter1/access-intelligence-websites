@@ -178,3 +178,18 @@ services:
     ports:
       - "9707:80"
       - "19707:19707"
+
+  chem:
+    <<: *site-cmd
+    working_dir: /root/sites/chemengonline.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-chem.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9708
+      LIVERELOAD_PORT: 19708
+      SITE_ID: 62437575d28860bc3391d779
+    hostname: www-ai-chem.dev.parameter1.com
+    ports:
+      - "9708:80"
+      - "19708:19708"

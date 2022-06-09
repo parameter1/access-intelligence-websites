@@ -134,6 +134,21 @@ services:
       - "9704:80"
       - "19704:19704"
 
+  admon:
+    <<: *site-cmd
+    working_dir: /root/sites/admonsters.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-admon.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9705
+      LIVERELOAD_PORT: 19705
+      SITE_ID: 624375ced28860bc3391ee16
+    hostname: www-ai-admon.dev.parameter1.com
+    ports:
+      - "9705:80"
+      - "19705:19705"
+
   avn:
     <<: *site-cmd
     working_dir: /root/sites/aircraftvaluenews.com

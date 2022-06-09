@@ -223,3 +223,18 @@ services:
     ports:
       - "9710:80"
       - "19710:19710"
+
+  evm:
+    <<: *site-cmd
+    working_dir: /root/sites/eventmarketer.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-evm.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9711
+      LIVERELOAD_PORT: 19711
+      SITE_ID: 62437651d28860bc33920f2b
+    hostname: www-ai-evm.dev.parameter1.com
+    ports:
+      - "9711:80"
+      - "19711:19711"

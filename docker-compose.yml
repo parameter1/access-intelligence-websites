@@ -268,3 +268,18 @@ services:
     ports:
       - "9713:80"
       - "19713:19713"
+
+  orm:
+    <<: *site-cmd
+    working_dir: /root/sites/ormanager.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-orm.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9714
+      LIVERELOAD_PORT: 19714
+      SITE_ID: 624376add28860bc33922631
+    hostname: www-ai-orm.dev.parameter1.com
+    ports:
+      - "9714:80"
+      - "19714:19714"

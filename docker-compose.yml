@@ -253,3 +253,18 @@ services:
     ports:
       - "9712:80"
       - "19712:19712"
+
+  mcm:
+    <<: *site-cmd
+    working_dir: /root/sites/multichannelmerchant.com
+    environment:
+      <<: [*env, *env-leonis]
+      HOST: www-ai-mcm.dev.parameter1.com
+      PORT: 80
+      EXPOSED_PORT: 9713
+      LIVERELOAD_PORT: 19713
+      SITE_ID: 62437677d28860bc33921855
+    hostname: www-ai-mcm.dev.parameter1.com
+    ports:
+      - "9713:80"
+      - "19713:19713"

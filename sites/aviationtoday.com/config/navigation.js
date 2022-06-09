@@ -2,12 +2,12 @@ const privacyPolicy = require('./privacy-policy');
 const subscribe = require('./subscribe');
 
 const topics = [
-  { href: '/publishers', label: 'Publishers' },
-  // { href: '/regulation', label: 'Regulation' },
-  // { href: '/distribution', label: 'Distribution' },
-  // { href: '/technology', label: 'Technology' },
-  // { href: '/people', label: 'People' },
-  // { href: '/associations', label: 'Associations' },
+  { href: '/air-taxi', label: 'Air Taxi' },
+  { href: '/commercial', label: 'Commercial' },
+  { href: '/business-and-ga', label: 'Business & GA' },
+  { href: '/atm-modernization', label: 'ATM Modernization' },
+  { href: '/regulation', label: 'Regulation' },
+  { href: '/connectivity', label: 'Connectivity' },
 ];
 
 const resources = [];

@@ -2,12 +2,11 @@ const privacyPolicy = require('./privacy-policy');
 const subscribe = require('./subscribe');
 
 const topics = [
-  { href: '/publishers', label: 'Publishers' },
-  // { href: '/regulation', label: 'Regulation' },
-  // { href: '/distribution', label: 'Distribution' },
-  // { href: '/technology', label: 'Technology' },
-  // { href: '/people', label: 'People' },
-  // { href: '/associations', label: 'Associations' },
+  { href: '/cynopsis', label: 'Cynopsis' },
+  { href: '/sports', label: 'Sports' },
+  { href: '/media-tech', label: 'Media Tech' },
+  { href: '/special-editions', label: 'Special Editions' },
+  { href: '/awards-events', label: 'Awards & Events' },
 ];
 
 const resources = [];

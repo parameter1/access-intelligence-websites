@@ -36,9 +36,22 @@ jobs:
         namespace:
           - staging-websites-leonis
         site:
+          - adexchanger.com
+          - admonsters.com
+          - aircraftvaluenews.com
+          - aviationtoday.com
           - cablefax.com
+          - chemengonline.com
+          - chiefmarketer.com
+          - cynopsis.com
           - defensedaily.com
+          - eventmarketer.com
+          - exchangemarketer.com
+          - multichannelmerchant.com
+          - ormanager.com
           - powermag.com
+          - prnewsonline.com
+          - satellitetoday.com
     steps:
       - uses: actions/checkout@v2
       - name: Deploy to Kubernetes

@@ -2,10 +2,9 @@ const privacyPolicy = require('./privacy-policy');
 const subscribe = require('./subscribe');
 
 const topics = [
-  { href: '/publishers', label: 'Publishers' },
-  // { href: '/regulation', label: 'Regulation' },
-  // { href: '/distribution', label: 'Distribution' },
-  // { href: '/technology', label: 'Technology' },
+  { href: '/branding-marketing', label: 'Branding/Marketing' },
+  { href: '/digital-technology', label: 'Digital & Technology' },
+  { href: '/media-relations', label: 'Media Relations' },
   // { href: '/people', label: 'People' },
   // { href: '/associations', label: 'Associations' },
 ];

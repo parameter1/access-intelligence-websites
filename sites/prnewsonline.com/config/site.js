@@ -25,15 +25,15 @@ module.exports = {
   },
   logos: {
     navbar: {
-      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress',
+      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/prn/prn-logo.png?h=50&auto=format,compress',
       srcset: [
-        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress&dpr=2 2x',
+        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/prn/prn-logo.png?h=50&auto=format,compress&dpr=2 2x',
       ],
     },
     footer: {
-      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress',
+      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/prn/prn-logo.png?h=50&auto=format,compress',
       srcset: [
-        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress&dpr=2 2x',
+        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/prn/prn-logo.png?h=50&auto=format,compress&dpr=2 2x',
       ],
     },
     corporate: {
@@ -65,7 +65,7 @@ module.exports = {
     directSend: false,
     sendTo: 'support@parameter1.com',
     sendFrom: 'PR News <noreply@parameter1.com>',
-    logo: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=45&auto=format,compress&bg=000000&pad=5',
+    logo: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/prn/prn-logo.png?h=45&auto=format,compress&bg=000000&pad=5',
     bgColor: '#000000',
   },
   setSearchSortFieldToScore: true,

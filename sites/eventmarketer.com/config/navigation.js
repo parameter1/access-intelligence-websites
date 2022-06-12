@@ -3,10 +3,8 @@ const subscribe = require('./subscribe');
 
 const topics = [
   { href: '/b-to-c-events', label: 'B-to-C Events' },
-  { href: '/lists', label: 'Lists' },
   { href: '/b-to-b-events', label: 'B-to-B Events' },
-  { href: '/awards', label: 'Awards' },
-  { href: '/our-events', label: 'Our Events' },
+  { href: '/technology', label: 'Technology' },
 ];
 
 const resources = [];

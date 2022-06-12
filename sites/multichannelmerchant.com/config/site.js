@@ -25,15 +25,15 @@ module.exports = {
   },
   logos: {
     navbar: {
-      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress',
+      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/mcm/mcm-logo.png?h=50&auto=format,compress',
       srcset: [
-        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress&dpr=2 2x',
+        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/mcm/mcm-logo.png?h=50&auto=format,compress&dpr=2 2x',
       ],
     },
     footer: {
-      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress',
+      src: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/mcm/mcm-logo.png?h=50&auto=format,compress',
       srcset: [
-        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=50&auto=format,compress&dpr=2 2x',
+        'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/mcm/mcm-logo.png?h=50&auto=format,compress&dpr=2 2x',
       ],
     },
     corporate: {
@@ -46,9 +46,9 @@ module.exports = {
     },
   },
   socialMediaLinks: [
-    // { provider: 'facebook', href: 'https://www.facebook.com/AdExchanger/', target: '_blank' },
-    // { provider: 'twitter', href: 'https://twitter.com/adexchanger', target: '_blank' },
-    // { provider: 'linkedin', href: 'https://www.linkedin.com/company/adexchanger-com/', target: '_blank' },
+    { provider: 'facebook', href: 'https://www.facebook.com/multichannel.merchant/', target: '_blank' },
+    { provider: 'twitter', href: 'https://twitter.com/mcmerchant', target: '_blank' },
+    { provider: 'linkedin', href: 'https://www.linkedin.com/company/multichannel-merchant/', target: '_blank' },
   ],
   podcastLinks: [],
   gcse: {
@@ -65,7 +65,7 @@ module.exports = {
     directSend: false,
     sendTo: 'support@parameter1.com',
     sendFrom: 'Multichannel Merchant.com <noreply@parameter1.com>',
-    logo: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/ai-logo.svg?h=45&auto=format,compress&bg=000000&pad=5',
+    logo: 'https://p1-cms-assets.imgix.net/files/base/accessintel/all/image/static/mcm/mcm-logo.png?h=45&auto=format,compress&bg=000000&pad=5',
     bgColor: '#000000',
   },
   setSearchSortFieldToScore: true,

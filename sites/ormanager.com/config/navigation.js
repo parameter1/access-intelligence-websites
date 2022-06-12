@@ -2,12 +2,12 @@ const privacyPolicy = require('./privacy-policy');
 const subscribe = require('./subscribe');
 
 const topics = [
-  { href: '/publishers', label: 'Publishers' },
-  // { href: '/regulation', label: 'Regulation' },
-  // { href: '/distribution', label: 'Distribution' },
-  // { href: '/technology', label: 'Technology' },
-  // { href: '/people', label: 'People' },
-  // { href: '/associations', label: 'Associations' },
+  { href: '/periop-nursing', label: 'Periop Nursing' },
+  { href: '/safety-quality', label: 'Safety/Quality' },
+  { href: '/or-business', label: 'OR Business' },
+  { href: '/supply-chain-technology', label: 'Supply Chain/Technology' },
+  { href: '/regulations-legal', label: 'Regulations/Legal' },
+  { href: '/ambulatory-surgery', label: 'Ambulatory Surgery' },
 ];
 
 const resources = [];

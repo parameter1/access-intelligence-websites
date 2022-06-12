@@ -2,10 +2,10 @@ const privacyPolicy = require('./privacy-policy');
 const subscribe = require('./subscribe');
 
 const topics = [
-  { href: '/publishers', label: 'Publishers' },
-  // { href: '/regulation', label: 'Regulation' },
-  // { href: '/distribution', label: 'Distribution' },
-  // { href: '/technology', label: 'Technology' },
+  { href: '/weapons-complex-monitor', label: 'Weapons Complex Monitor' },
+  { href: '/radwaste-monitor', label: 'Radwaste Monitor' },
+  { href: '/nuclear-deterrence-security-monitor', label: 'Nuclear Deterrence & Security Monitor' },
+  { href: '/morning-briefing', label: 'Morning Briefing' },
   // { href: '/people', label: 'People' },
   // { href: '/associations', label: 'Associations' },
 ];

@@ -7,5 +7,5 @@ Disallow: /__
 Disallow: /print/content
 Disallow: /search
 
-Sitemap: https://www.exchangemarketer.com/sitemap.xml
-Sitemap: https://www.exchangemarketer.com/sitemap-google-news.xml
+Sitemap: https://www.exchangemonitor.com/sitemap.xml
+Sitemap: https://www.exchangemonitor.com/sitemap-google-news.xml

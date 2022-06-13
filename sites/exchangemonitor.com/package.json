@@ -1,8 +1,8 @@
 {
-  "name": "@access-intelligence/exchangemarketer.com",
+  "name": "@access-intelligence/exchangemonitor.com",
   "version": "0.2.1",
   "author": "Brandon Krigbaum <brandon@parameter1.com>",
-  "repository": "https://github.com/parameter1/access-intelligence-websites/tree/master/sites/exchangemarketer.com",
+  "repository": "https://github.com/parameter1/access-intelligence-websites/tree/master/sites/exchangemonitor.com",
   "license": "MIT",
   "private": true,
   "scripts": {

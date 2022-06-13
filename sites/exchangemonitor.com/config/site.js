@@ -21,7 +21,7 @@ module.exports = {
   p1events: {
     tenant: 'accessintel_all',
     enabled: true,
-    cookieDomain: process.env.NODE_ENV === 'production' ? 'exchangemarketer.com' : '',
+    cookieDomain: process.env.NODE_ENV === 'production' ? 'exchangemonitor.com' : '',
   },
   logos: {
     navbar: {

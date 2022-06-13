@@ -241,7 +241,7 @@ services:
 
   exm:
     <<: *site-cmd
-    working_dir: /root/sites/exchangemarketer.com
+    working_dir: /root/sites/exchangemonitor.com
     environment:
       <<: [*env, *env-leonis]
       HOST: www-ai-exm.dev.parameter1.com

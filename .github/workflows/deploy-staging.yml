@@ -123,7 +123,7 @@ jobs:
     strategy:
       matrix:
         namespace:
-          - leonis-websites
+          - staging-websites-leonis
         site:
           - adexchanger.com
           - admonsters.com
